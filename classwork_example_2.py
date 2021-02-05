@@ -1,7 +1,6 @@
 
 print("calculate your BMI")
 print("written by Franklin Araque")
-print("")
 
 
 #user input
@@ -15,7 +14,7 @@ FeetToinches= (Heightfeet)*12               #converting feet to inches
  
 FeetandInches = FeetToinches + Heightfeet   #adding the converted feet to inches and the inches from the user input together, total weight
 
-
+# This is a good idea.
 
 #calculate BMI
 calcBMI = (weight / (FeetandInches**2)) * 703    #in python "**" means the "^" for raised powers, eg "2^3" = "2**3"
@@ -23,3 +22,6 @@ calcBMI = round(calcBMI, 2)                      #rounding to the second decimal
 
 #display
 print("for height " +str(Heightfeet)+"\""+str(Heightinches) +" and "+str(weight)+ " your BMI is: "+str(calcBMI))  #the "\"" is telling it to print the " inside the two other "", it skips the \
+# I like what you did here.
+
+# Testing comment 3
